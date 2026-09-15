@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;  
+    color:rgb(180, 50, 87) ;
+    background-color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:rgb(180, 50, 87) ;  
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: rgb(186, 145, 65);
+}
+
+.searchbar{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+}
+
+.searchbtn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: rgb(180, 50, 87);
+    color: white;
+}
+
+.searchbtn:hover{
+    color: white;
+    background-color: rgb(186, 145, 65);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: ;
+}
+
+.dabbe{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    font-family: Quicksand;
+    font-size: 12px;
+}
+
+.dabba{
+    width: 300px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+.follow{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.item{
+    width: 500px;
+    height: 120px;
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: black solid 1px;
+}
+
+.itemheading{
+    text-align: center;
+    font-family: Josefin Sans;
+    color: rgb(180, 50, 87);
+}
+
+.nav-pills .nav-link.active{
+    background-color:rgb(180, 50, 87) ;
+    color: white;
+}
+
+.nav-pills .nav-link{
+    background-color: rgb(180, 50, 87);
+    color: white;
+}
